@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find and Replace Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Find and Replace</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#findreplace">Find & Replace</a></li> <!-- Added link to Find & Replace section -->
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my find and replace website. Enjoy your stay!</p>
+   <p>** Find and Replace Word Tool ** </p>
+   
+
+<p>*Welcome to the easiest way to find and replace text!*
+
+</p>
+<p>*Empowering Text Editing, Simplified.*</p><p>
+
+**Revolutionize Your Text Editing Experience**</p><p>
+
+At  Find and Replace, we're dedicated to providing you with the most efficient and intuitive find and replace tool on the market. Say goodbye to tedious manual editing and hello to seamless text transformations.</p><p>
+
+<p>**How it Works:**</p>
+
+<p>
+1. Enter the text you want to search for.</p>
+<p>2. Enter the replacement text.</p><p>
+3. Click "Replace" to update your text instantly.</p><p>
+
+**Why Choose Us?**</p><p>
+
+
+With Find and Replace Tool, text editing has never been smoother. Join thousands of satisfied users who trust our tool for their everyday needs.<p>
+
+**What we Offer** </p><p>
+
+- Lightning-fast results</p><p>
+- User-friendly interface</p><p>
+- No downloads required</p><p>
+- Works on any device </p><p>
+
+
+**Testimonials:**</p><p>
+
+*"This tool saved me so much time! Highly recommended." - John D.*</p><p>
+
+*"I use this find and replace tool daily in my work. It's a lifesaver!" - Sarah H.*</p><p>
+
+**Need Help?**</p><p>
+
+Have questions or feedback? We're here to assist you.</p><p>
+Contact us at feedbackfindandreplace@gmail.com </p><p> or</p><p>
+fill out our support form.</p><p>
+
+**Ready to Get Started?**</p><p>
+
+ "Try it now!"</p>
+   
+   
+    </section> </section>
+
+    <section id="findreplace">
+        <h2>Find & Replace</h2>
+        
+        
+        <label for="paragraph">Paragraph:</label>
+        
+        
+        <textarea id="paragraph" rows="10" cols="40"  placeholder="Enter text..."></textarea>
+     <label for="findText">Find:</label>
+    <textarea id="findText" rows="5" cols="50"placeholder="Find..."></textarea>
+    <label for="replaceText">Replace with:</label>
+    <textarea id="replaceText" rows="5" cols="50"  placeholder="Replace..."></textarea>
+    <button onclick="findAndReplace()">Find & Replace</button>
+
+<button onclick="startAgain()">Start Again</button> <!-- New "Start Again" button -->
+
+
+<button onclick="copyParagraph()">Copy</button> 
+    <p id="result"></p>
+    </section>
+
+
+
+
+
+    <section id="about">
+        <h2>About</h2>
+       
+   <p>Welcome to Find and Replace !</p>
+   
+   <p>**About Find and Replace Website** </p><p>
+
+Welcome to Find and Replace, your go-to destination for efficient text editing solutions. Our mission is to simplify the process of finding and replacing text online, saving you time and hassle. </p><p>
+
+
+ </p><p>** Our Mission ** </p><p>
+
+At    Find and Replace , our mission is simple yet ambitious: to empower individuals and businesses with powerful find and replace tools that simplify text manipulation tasks, saving time and effort while enhancing productivity. We're committed to delivering innovative solutions that exceed expectations, foster creativity, and drive success in every endeavor.
+
+
+
+
+ </p><p> **Our Story** </p><p>
+
+
+The journey of Our Company Find And Replace began with a simple yet profound realization: the tedious and time-consuming nature of text manipulation tasks was a pain point shared by countless individuals and organizations across diverse industries. Recognizing the need for a smarter, more efficient solution, our founders embarked on a mission to develop find and replace tools that would revolutionize the way users interact with text.
+
+ </p><p>Driven by a passion for innovation and a commitment to excellence, our team of developers, designers, and enthusiasts pooled their expertise to create a suite of cutting-edge tools designed to streamline text manipulation workflows, from simple search and replace operations to complex pattern matching and formatting tasks.
+
+ </p><p>Since our inception, we've remained steadfast in our dedication to pushing the boundaries of what's possible, constantly refining and enhancing our tools to meet the evolving needs of our users. Today, Find and Replace  stands as a testament to the power of innovation and the relentless pursuit of excellence in the field of text manipulation technology.
+ 
+ 
+
+ </p><p>Founded in 2018 by a team of passionate developers, Find and Replace was born out of a desire to streamline text editing tasks for users across the globe. With a commitment to innovation and user-centric design, we've continuously evolved our platform to meet the changing needs of our audience. </p><p>
+
+</p><p> **Meet the Team** </p><p>
+
+Our team consists of experienced developers, designers, and content creators dedicated to delivering the best possible experience for our users. From crafting intuitive interfaces to implementing cutting-edge algorithms, each member of our team plays a vital role in driving the success of Find and Replace.
+
+ </p><p> **Our Values** </p><p>
+
+At Find and Replace, We're committed to providing a user-friendly experience that empowers our users to accomplish their text editing goals with ease.
+
+ </p><p>At Find and Replace , our values serve as the guiding principles that shape everything we do. Integrity, innovation, collaboration, and customer-centricity are not just words; they're the foundation of our culture and the driving force behind our success. We believe in:
+
+ </p><p>- **Integrity:** We conduct ourselves with honesty, transparency, and accountability in all our interactions, earning the trust and respect of our customers and partners.
+  
+ </p><p>- **Innovation:** We embrace creativity, curiosity, and experimentation, constantly pushing the boundaries of what's possible to deliver innovative solutions that exceed expectations.
+  
+ </p><p>- **Collaboration:** We foster a culture of collaboration, diversity, and inclusion, recognizing that our collective strength lies in our ability to work together towards a common goal.
+  
+ </p><p>- **Customer-Centricity:** We prioritize the needs and satisfaction of our customers above all else, striving to deliver exceptional value and service at every touchpoint.
+
+
+
+
+
+</p><p>#### Our Commitment to Excellence
+
+</p><p>At Find And Replace , excellence is not just a goal; it's a way of life. We're committed to upholding the highest standards of quality, reliability, and innovation in everything we do, ensuring that our products continue to exceed expectations and deliver exceptional value to our users.
+
+</p><p>From continuous product enhancements to proactive customer support and community engagement, we're constantly striving to raise the bar and set new benchmarks for excellence in the field of text manipulation technology.
+
+
+
+ </p><p>**Get in Touch** </p><p>
+
+Have questions, feedback, or suggestions? We'd love to hear from you! Feel free to reach out to us at findandreplace23@gmail.com or connect with us on social media.
+
+ </p><p>**Join the Community** </p><p>
+
+Stay updated on the latest news and features from Find and Replace by following us on Twitter, Facebook, and LinkedIn. Join our growing community of users and be part of the conversation!
+
+ 
+ </p><p> Join Us on Our Journey
+
+ </p><p>As we continue to innovate, evolve, and expand our horizons, we invite you to join us on our journey. Whether you're a seasoned user, a potential customer, or simply curious about what we have to offer, we welcome you to explore our website, try our products, and experience the difference for yourself.
+
+ </p><p>At Find and Replace , we're not just transforming text; we're transforming possibilities, one search and replace at a time. Join us, and together, let's redefine the way the world interacts with text.
+ 
+ 
+ 
+ 
+ </p><p>**Thank You** </p><p>
+
+Thank you for choosing Find and Replace for your text editing needs. We're grateful for your support and excited to continue serving you in the future.</p>
+
+
+   <section id="contact">
+        <h2>Contact Us</h2>
+        
+    </P><p>  **Contact Us** </P><p> 
+
+Have a question, comment, or suggestion? We're here to help! Get in touch with us using the contact information below or fill out the form, and we'll get back to you as soon as possible.
+
+ </P><p> **Email:** </P><p> 
+ findandreplace23@gmail.com
+
+ </P><p> **Phone:** </P><p> 
+   +1 (555) 123-4567
+
+ </P><p> **Address:** </P><p> 
+ 123 Main Street, Washington , 
+ USA, Zip Code :98101
+
+Feel free to reach out to us for any inquiries regarding our services, partnerships, or any other matter. We value your feedback and look forward to hearing from you!
+
+</P><p> Business Hours: When We're Available
+
+Our dedicated team is at your service from Monday to Friday, between the hours of 9:00 AM and 5:00 PM (EST). Rest assured, any inquiries or messages received outside these hours will be promptly attended to during the next available business day. We strive to maintain accessibility and responsiveness to meet your needs effectively.
+
+
+
+</p><p> ** Feedback: Your Voice Matters **</P><p> 
+
+We value your feedback and welcome your suggestions for improvement. Whether you have ideas for enhancing our services or simply want to share your experience, we're all ears. Send us your feedback at feedbackfindandreplace@gmail.com, and rest assured, every comment is carefully considered as we strive to enhance your experience with us.</p><p> 
+        
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+
+        
+        
+        
+        
+        
+    </section>
+</main>
+     
+
+<footer>
+    <p>&copy; 2024 Find and Replace Website. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+<style>/* Styles for header, navigation, and main sections */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Styles for form */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+   
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+body {
+    background-color: lightblue;
+}
+
+
+
+
+#findreplace {
+    background-color: pink; /* Change background color of the entire section */
+}
+
+#findreplace textarea,
+#findreplace input[type="text"] {
+    background-color: lightgreen; /* Change background color of textareas and input fields */
+}
+
+
+
+
+
+#findreplace textarea {
+    width: 100%; /* Make the textarea full width */
+    height: 190px; /* Increase the height to allow for multiple lines */
+}
+
+
+
+
+
+#findreplace label {
+    font-size: 19px; /* Adjust the font size as needed */
+    display: block; /* Ensure each label is on a new line */
+    margin-top: 10px; 
+    
+    /* Add some top margin for spacing */
+}
+
+
+
+
+
+
+#findreplace button {
+    padding: 10px 20px; /* Increase padding to make the button larger */
+    font-size: 16px; /* Increase font size */
+    background-color: red;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</style><script>// JavaScript code for form submission
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    // Get form values
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+
+    // Do something with the form data (e.g., send it to a server)
+    console.log("Name: " + name);
+    console.log("Email: " + email);
+    console.log("Message: " + message);
+
+    // Clear form fields
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+
+    // Display a confirmation message (optional)
+    alert("Thank you for your message!");
+});
+
+// JavaScript code for find and replace functionality
+function findAndReplace() {
+    var findText = document.getElementById("findText").value;
+    var replaceText = document.getElementById("replaceText").value;
+
+    // Get the paragraph to perform find and replace
+    var paragraph = document.getElementById("paragraph").value;
+
+    // Perform find and replace operation on the paragraph
+    var newParagraph = paragraph.replace(new RegExp(findText, 'gi'), replaceText);
+
+    // Update the paragraph with the replaced text
+    document.getElementById("paragraph").value = newParagraph;
+
+    // Display result
+    document.getElementById("result").innerText = "Text replaced successfully.";
+}
+
+
+
+
+
+
+
+function startAgain() {
+  
+    document.getElementById("paragraph").value = ""; // Clear the find textarea
+    
+    document.getElementById("findText").value = ""; // Clear the find textarea
+    document.getElementById("replaceText").value = ""; // Clear the replace textarea
+    document.getElementById("result").innerText = ""; // Clear the result message
+}
+
+
+
+
+
+
+
+
+function copyParagraph() {
+    var paragraph = document.getElementById("paragraph");
+    
+    // Select the text inside the textarea
+    paragraph.select();
+    
+    // Copy the selected text to the clipboard
+    document.execCommand("copy");
+    
+    // Deselect the text
+    window.getSelection().removeAllRanges();
+    
+    // Inform the user that the text has been copied
+    alert("Text copied to clipboard!");
+}
+</script>
